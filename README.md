@@ -19,6 +19,8 @@ Now run the container from the Image created:
 docker container run --name nodejs -p 80:3000 -d <your username>/node-web-app>
 ```
 
+```sh
 # docker container ls
 CONTAINER ID   IMAGE                COMMAND             CREATED         STATUS         PORTS                                   NAMES
 f36394a7538a   jeenajoy5/nodejs  "node nodeapp.js"   3 minutes ago   Up 3 minutes   0.0.0.0:80->3000/tcp, :::80->3000/tcp   nodejs
+```
