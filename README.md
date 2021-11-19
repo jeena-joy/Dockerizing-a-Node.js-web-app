@@ -9,7 +9,7 @@ docker build -t <your username>/node-web-app> .
 ```
 
 ```sh
-#docker images ls
+# docker images ls
 jeenajoy5/nodejs       latest                                     642564ee0a03   3 minutes ago       59.5MB
 ```
 
