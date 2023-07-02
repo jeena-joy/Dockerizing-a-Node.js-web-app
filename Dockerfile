@@ -9,3 +9,4 @@ RUN npm install express
 EXPOSE 3000
 ENTRYPOINT [ "node" ]
 CMD [ "nodeapp.js" ]
+
